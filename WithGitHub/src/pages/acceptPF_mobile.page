@@ -28,7 +28,7 @@ var dare;
 var test1;
 var variable;
 var where; // what is wrong!
-var ts124;
+var test1234;//corrected version
 var bare1233;
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
