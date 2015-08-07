@@ -18,20 +18,7 @@ var records = sforce.connection.query("SELECT Implementation_Period__r.Approval_
 var results = records.getArray('records'); 
 //alert(results);
 
-var mychanges;
-var newTest12237;
-var committheFOURTH;// Our nre comment
-
-var where;
-var care;
-var dare;
-var test1;
-var variable;
-var where; // what is wrong!
-var Test123;
-
-var Test;
-
+//No test variables should be created.
 
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
