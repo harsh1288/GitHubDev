@@ -15,7 +15,7 @@ var GIPId ="{! Performance_Framework__c.Implementation_Period__c}";
 //var BudStatus = new sforce.SObject("Performance_Framework__c"); 
 var BudStatus  = "{!Performance_Framework__c.Id}"; 
 var records = sforce.connection.query("SELECT Implementation_Period__r.Approval_Status__c,Id from Performance_Framework__c where id ='"+BudStatus+"' limit 1"); 
-var results = records.getArray('GETrECORDD'); 
+var results = records.getArray('records'); 
 //alert(results);
 
 var mychanges;
@@ -29,7 +29,8 @@ var test1;
 var variable;
 var where; // what is wrong!
 var Test123;
-var bare1233;
+var bare1233;// this line should be commented.
+
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
 alert('PR Information Form and Grant Form must be approved to accept Performance Framework.'); 
