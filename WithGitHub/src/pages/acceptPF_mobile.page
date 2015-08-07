@@ -29,7 +29,9 @@ var test1;
 var variable;
 var where; // what is wrong!
 var Test123;
-var bare1233;// this line should be commented.
+
+var Test;
+
 
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
