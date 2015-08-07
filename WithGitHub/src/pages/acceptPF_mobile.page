@@ -17,7 +17,7 @@ var BudStatus  = "{!Performance_Framework__c.Id}";
 var records = sforce.connection.query("SELECT Implementation_Period__r.Approval_Status__c,Id from Performance_Framework__c where id ='"+BudStatus+"' limit 1"); 
 var results = records.getArray('records'); 
 //alert(results);
-
+var variable; //NOW
 //No test variables should be created.
 
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
