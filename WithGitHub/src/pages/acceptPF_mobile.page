@@ -20,7 +20,7 @@ var results = records.getArray('records');
 var variable; //NOW
 //No test variables should be created.
 
-//some changes.more.
+//some changes.more.this is new sentence
 
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
