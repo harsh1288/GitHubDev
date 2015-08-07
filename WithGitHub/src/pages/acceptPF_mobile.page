@@ -20,6 +20,8 @@ var results = records.getArray('records');
 var variable; //NOW
 //No test variables should be created.
 
+//some changes.more.
+
 if(results[0].Implementation_Period__r.Approval_Status__c!='Approved') 
 { 
 alert('PR Information Form and Grant Form must be approved to accept Performance Framework.'); 
