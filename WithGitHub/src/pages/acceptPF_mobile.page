@@ -26,7 +26,7 @@ var variable; //NOW
 
 //test 
 
-//Harsha
+//Harsh is adding
 
 
 
@@ -82,5 +82,6 @@ location.reload(true); //reload screen to reflect changes
 }
 }
 }
+    //Last line: Harsh Chaturvedi
     </script>
 </apex:page>
