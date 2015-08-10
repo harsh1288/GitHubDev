@@ -82,6 +82,10 @@ location.reload(true); //reload screen to reflect changes
 }
 }
 }
+<<<<<<< HEAD
+
+=======
     //Last line: Harsh Chaturvedi
+>>>>>>> refs/heads/master
     </script>
 </apex:page>
